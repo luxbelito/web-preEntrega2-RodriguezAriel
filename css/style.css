@@ -16,11 +16,17 @@ h1 {
 header {
     background-color: rgb(166, 140, 105);
     padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav {
     font-size: 30px;
+    display: flex;
+    align-items: end;
+    width: 600px;
 }
+
 
 a {
     color: black;
@@ -30,6 +36,9 @@ a {
 ul {
     list-style-type: none;
     color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 footer {
@@ -54,6 +63,19 @@ footer {
 
 .menu {
     background-color: rgb(58, 95, 111);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    
+}
+
+.menu img {
+    
+    max-height: 300px;
+}
+
+.submenu {
+   
 }
 
 #reservas {
