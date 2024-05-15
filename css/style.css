@@ -1,0 +1,77 @@
+html {
+font-family: "Oswald", sans-serif;
+/* font-optical-sizing: auto; */
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+header {
+    background-color: rgb(166, 140, 105);
+    padding: 1rem 1rem;
+}
+
+header nav {
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+}
+
+footer {
+    background-color: rgb(166, 140, 105);
+    padding: 1rem 1rem;
+}
+
+#nosotros {
+    padding: 2rem;
+    font-size: 50px;
+}
+
+.nosotros {
+    background-color:rgb(187, 168, 143);
+    padding: 2rem 2rem;
+}
+
+#menu {
+    padding: 2rem;
+    font-size: 50px;
+}
+
+.menu {
+    background-color: rgb(58, 95, 111);
+}
+
+#reservas {
+    padding: 2rem;
+    font-size: 50px;
+}
+
+.reservas {
+    background-color: rgb(58, 95, 111);
+    padding: 2rem 2rem;
+}
+
+#contacto {
+    padding: 2rem;
+    font-size: 50px;
+}
+
+.contacto {
+    background-color: rgb(58, 95, 111);
+    padding: 2rem 2rem;
+}
